@@ -64,7 +64,11 @@ define( 'NONCE_SALT',       ':w^2U.1,Wbc9f_u5uC/6 .iMMw{]h7<q!/`bx|i0=^9urdTdEp!
  * a unique prefix. Only numbers, letters, and underscores please!
  */
 $table_prefix = 'et_';
-
+define('FTP_PUBKEY','/home/wp-user/wp_rsa.pub');
+define('FTP_PRIKEY','/home/wp-user/wp_rsa');
+define('FTP_USER','wp-user');
+define('FTP_PASS','');
+define('FTP_HOST','localhost');
 /**
  * For developers: WordPress debugging mode.
  *
